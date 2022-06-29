@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="juego.css">
+    <title>Juego 3 y 2</title>
+</head>
+<body>
+    <img src="vol02.PNG" alt="" class="audiobutton" id="vol02" onclick="silences()">
+    <img src="vol0.PNG" class="audiobutton" id="vol0" onclick="up()">
+    <audio id="player" src="music.mp3"></audio>
+    
+    <div>
+        
+        <img class="pictureP" src="CartaPortada.png" id="object">
+        <br id="objects">
+        <img src="play.png" class="picturePlay" onclick="play()" id="object1">
+        <ul id="parentComputer">
+        </ul>
+        <ul id="parent">
+            <li><img src ="cartas/ParteTrasera.PNG" onclick ="MazoCentralOculto()" id ="MazoOculto"></li>
+            <li><img src ="" onclick="MazoCentralVisto()" id="MazoVer"></li>
+        </ul>
+        
+        
+    </div>
+    
+    <script src="juego.js"></script>
+    <script src="audio.js"></script>
+    <script src="generarcartas.js"></script>
+    <script src ="movCartas.js"></script>
+    <script src ="juegaComputer.js"></script>
+</body>
+</html>

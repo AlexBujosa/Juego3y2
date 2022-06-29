@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: radial-gradient(circle,#1377F5,#04469A);
+}
+.pictureP{
+    
+    width:200px;
+    height:auto;
+}
+.picturePlay{
+    
+    width:100px;
+    height:auto;
+    box-shadow:inset 5px 3px 4px 4px rgb(0 0 0 / 20%);
+    border-radius: 20px;
+    cursor:pointer;
+    transition:all .2s;
+}
+.picturePlay:hover{
+    box-shadow:inset 10px 8px 9px 9px rgb(0 0 0 / 30%);
+}
+div{
+    position:relative;
+    margin-top:10%;
+    text-align: center;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+}
+.audiobutton{
+    
+    cursor:pointer;
+}
+#vol0{
+    display:none;
+}
+#object
+{
+    transition: ease-in-out 2s;
+}
+#object1
+{
+    transition:ease-in-out 2s;
+}
+#MazoOculto
+{
+    width:80px;
+    height:auto;
+    display: none;
+    margin:auto;
+    cursor:pointer;
+}
+#MazoVer
+{
+    position:relative;
+    width: 80px;
+    height:auto;
+    display: none;
+    margin-left: 30px;
+    margin:auto;
+    cursor: pointer;
+}
+#parentComputer
+{
+    list-style:none;
+    display:block;
+    margin-bottom:10px;
+}
+#parentComputer > li
+{
+    list-style: inline-block;
+}
+#parent
+{
+    list-style: none;
+    display:none;
+    margin-bottom:10px;
+}
+#parent > li {
+    display: inline-block;
+}
+#parent1
+{
+    list-style: none;
+    display:none;
+}
+#parent1 > li {
+    display: inline-block;
+}
+li
+{
+    margin-right:10px;
+    display:inline-block;
+}
+
+.cartaJugador
+{
+    position:relative;
+    width: 80px;
+    height:auto;
+    display: none;
+    cursor: pointer;
+    opacity: 0;
+    transition:1s;
+}
+.cartaComputer
+{
+    position:relative;
+    width: 80px;
+    height:auto;
+    display: none;
+    cursor: pointer;
+    margin:auto;
+    opacity: 0;
+    transition:1s;
+}
+

@@ -2,7 +2,7 @@ FROM nginx:stable
 
 WORKDIR /usr/share/nginx/html
 
-COPY . .
+COPY public/ .
 
 EXPOSE 8080
 

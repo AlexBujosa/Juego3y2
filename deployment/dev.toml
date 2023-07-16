@@ -3,8 +3,8 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "JuegoCartaDEV3y2"
-primary_region = "atl"
+app = "juegocartadev3y2"
+primary_region = "mia"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
